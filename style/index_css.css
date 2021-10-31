@@ -1,0 +1,84 @@
+
+body {
+    color: white;
+    margin:  0px;
+    background-color: black;
+  
+  }
+
+  nav{
+    float: right;
+}
+
+
+.nav-link{
+    color: rgba(0, 0, 255, 0.822);
+    margin: 5px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap'); */
+
+#header{
+    background-color: black;
+    padding: 40px ;
+    position: fixed;
+    top: 0;
+    width: 96%;
+    border-bottom: white 1px solid;
+}
+#header-img{
+    width: 4%;
+    float: left;
+    
+}
+
+@media (max-width: 800px) {
+    #shoes img{
+        width: 100%;
+    }
+}
+
+
+#Home{
+    display: inline-flex;
+    padding-bottom: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images.creativemarket.com/0.1.0/ps/98488/580/386/m1/fpnw/wm0/4-.jpg?1397717383&s=6a8de7a85612be06970c9e27aa4f9256");
+}
+
+section{
+    margin: 20px;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: rgb(19, 38, 54);
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+#footer_nav{
+    color: white;
+    text-align: center;
+}
+#footer_nav a{
+    color: white;
+}
+input{
+    margin-top: 15px;
+    width: 250px ;
+    height: 20px ;
+    border-radius: 20px;
+}
+#submit{
+    margin: 5px;
+    width: 200px;
+    height: 30px ;
+    background-color: rgb(44, 133, 139);
+    display: block;
+    color: white;
+    border-radius: 10px;
+}
+
+
